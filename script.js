@@ -1,3 +1,6 @@
+/* Start of code */
+
+
 var socialMedia = [
   "whatsapp",
   "instagram",
@@ -52,6 +55,8 @@ function generateButtons() {
 
   document.getElementById('keyboard').innerHTML = buttonsHTML;
 }
+
+/** End of code */
 
 function handleGuess(chosenLetter) {
   guessed.indexOf(chosenLetter) === -1 ? guessed.push(chosenLetter) : null;
